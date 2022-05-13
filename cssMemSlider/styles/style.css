@@ -52,7 +52,39 @@ html {
 .mem-slider {
   width: 500px;
   height: 500px;
-  background-color: red;
+  background-color: #10454f;
+}
+
+.carousel-wrapper {
+  width: 500px;
+  overflow: hidden;
+}
+
+.carousel {
+  display: flex;
+  position: relative;
+}
+
+.img {
+  width: 500px;
+  height: 200px;
+  margin: 5px;
+}
+
+.img_1 {
+  background-color: #ff4858;
+}
+.img_2 {
+  background-color: #1b7f79;
+}
+.img_3 {
+  background-color: #00ccc0;
+}
+.img_4 {
+  background-color: #72f2eb;
+}
+.img_5 {
+  background-color: #747f7f;
 }
 
 .footer {
