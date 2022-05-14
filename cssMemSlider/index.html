@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Mem Slider</title>
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="container header__content">
+          <h1 class="header__title">CSS Mem Slider</h1>
+        </div>
+      </header>
+      <main class="main">
+        <div class="container main__content">
+          <div class="mem-slider">
+            <div class="slider">
+              <div class="slides">
+                <div id="slides__1" class="slide">
+                  <img
+                    class="slide__img"
+                    src="./assets/img/mem1.jpg"
+                    alt="JS mem"
+                  />
+                  <p class="slide__text">First day with JS</p>
+                </div>
+                <div id="slides__2" class="slide">
+                  <img
+                    src="./assets/img/mem2.jpg"
+                    alt="south park fat men before computer"
+                    class="slide__img"
+                  />
+                  <p class="slide__text">
+                    Trying understand how to create slider with pure CSS
+                  </p>
+                </div>
+                <div id="slides__3" class="slide">
+                  <img
+                    src="./assets/img/mem3.jpg"
+                    alt="recursion meme"
+                    class="slide__img"
+                  />
+                  <p class="slide__text">A little bit of recursion :)</p>
+                </div>
+                <div id="slides__4" class="slide">
+                  <img
+                    src="./assets/img/mem4.jpg"
+                    alt="meme where the dude flips the table"
+                    class="slide__img"
+                  />
+                  <p class="slide__text">I'm out of ideas for memes</p>
+                </div>
+              </div>
+              <div class="slider__nav">
+                <a class="slider__navlink" href="#slides__1"></a>
+                <a class="slider__navlink" href="#slides__2"></a>
+                <a class="slider__navlink" href="#slides__3"></a>
+                <a class="slider__navlink" href="#slides__4"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer class="footer">
+        <div class="container footer__content">
+          <a
+            target="_blank"
+            href="https://github.com/solomonya"
+            class="footer__link"
+            >github</a
+          >
+          <span class="copyrights">(c) 2022</span>
+          <a target="_blank" href="https://rs.school/" class="footer__link"
+            >Rolling Scopes School</a
+          >
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
