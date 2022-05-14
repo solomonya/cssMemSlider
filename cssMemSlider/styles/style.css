@@ -123,8 +123,17 @@ html {
   height: 15px;
   width: 15px;
   border-radius: 50%;
-  background-color: black;
+  background-color: #30a5bf;
   margin: 0 10px 0 10px;
+  transition: background-color ease 0.3s 0s;
+}
+
+.slider__navlink:hover {
+  background-color: #fff;
+}
+
+.slider__navlink:active {
+  background-color: #0b2b40;
 }
 
 .footer {
